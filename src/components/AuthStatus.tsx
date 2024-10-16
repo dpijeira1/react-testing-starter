@@ -4,6 +4,7 @@ import LoginButton from "./LoginButton";
 import LogoutButton from "./LogoutButton";
 
 const AuthStatus = () => {
+  //Mock useAuth0 hook for testing
   const { user, isAuthenticated, isLoading } = useAuth0();
 
   if (isLoading) return <div>Loading...</div>;

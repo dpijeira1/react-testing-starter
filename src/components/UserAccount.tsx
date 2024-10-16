@@ -1,6 +1,8 @@
 import { User } from "../entities";
 
 const UserAccount = ({ user }: { user: User }) => {
+  // queryByRole
+  // expect().not.toBeInTheDocument()
   return (
     <>
       <h2>User Profile</h2>

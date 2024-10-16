@@ -1,7 +1,7 @@
-import Onboarding from "../components/Onboarding";
+import AuthStatus from "../components/AuthStatus";
 
 const PlaygroundPage = () => {
-  return <Onboarding />;
+  return <AuthStatus />;
 };
 
 export default PlaygroundPage;
